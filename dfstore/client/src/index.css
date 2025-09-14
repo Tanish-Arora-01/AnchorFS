@@ -1,0 +1,15 @@
+:root {
+	/* Accent color from provided image (approx). Change here to update globally */
+	--accent: #4F46E5;
+	--accent-dark: #2e2a99;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--accent: #3730A3;
+	}
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
